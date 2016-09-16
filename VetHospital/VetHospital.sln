@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetHospital", "VetHospital\VetHospital.csproj", "{EEB37E64-05C1-4D56-A779-4757B7BAC010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetHospital.Tests", "VetHospital.Tests\VetHospital.Tests.csproj", "{2C2A9DCF-CA9D-4C9D-9094-F7B94C572307}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEB37E64-05C1-4D56-A779-4757B7BAC010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB37E64-05C1-4D56-A779-4757B7BAC010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB37E64-05C1-4D56-A779-4757B7BAC010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB37E64-05C1-4D56-A779-4757B7BAC010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2A9DCF-CA9D-4C9D-9094-F7B94C572307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2A9DCF-CA9D-4C9D-9094-F7B94C572307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2A9DCF-CA9D-4C9D-9094-F7B94C572307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2A9DCF-CA9D-4C9D-9094-F7B94C572307}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
