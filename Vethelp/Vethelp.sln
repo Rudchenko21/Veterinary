@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vethelp", "Vethelp\Vethelp.csproj", "{32CE349E-A084-49D9-AB08-4B08C166CB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vethelp.Tests", "Vethelp.Tests\Vethelp.Tests.csproj", "{C82CAC05-B4CB-4A72-9B40-9C29748A2C87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32CE349E-A084-49D9-AB08-4B08C166CB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CE349E-A084-49D9-AB08-4B08C166CB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CE349E-A084-49D9-AB08-4B08C166CB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CE349E-A084-49D9-AB08-4B08C166CB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82CAC05-B4CB-4A72-9B40-9C29748A2C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82CAC05-B4CB-4A72-9B40-9C29748A2C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82CAC05-B4CB-4A72-9B40-9C29748A2C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82CAC05-B4CB-4A72-9B40-9C29748A2C87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

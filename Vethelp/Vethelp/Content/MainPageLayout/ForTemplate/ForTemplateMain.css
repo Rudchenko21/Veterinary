@@ -1,0 +1,159 @@
+﻿body {
+    margin:0 !important;
+    padding:0 !important;
+    height:auto;
+    width:100%;
+}
+.fon{
+    width:100%;
+    height:100%;
+    float:left;
+    margin:0;
+}
+html{
+    background:url("/Content/Images/Layout/fon.jpg") repeat;
+}
+.backfon{
+    width:100%;
+    height:100%;
+    background:url("/Content/Images/Layout/fon.jpg") repeat;
+}
+body .firstSection{
+    margin:0;
+    width:100%;
+    height:700px;
+    float:left;
+    background:url("/Content/Images/Layout/SiteLogo.png") no-repeat;
+    background-size:100% 100%;
+}
+body .newsBlock{
+    margin:0 !important;
+    width:100%;
+    height:900px;
+    float:left;
+    background:red;
+}
+body .otherSection{
+    margin:0;
+    width:100%;
+    height:600px;
+    float:left;
+    background:white;
+}
+    .otherSection .textinfoBlock{
+        width:100%;
+        height:80%;
+        float:left;
+        border:1px solid red;
+    }
+        .textinfoBlock .upDown{
+            width:100%;
+            height:10%;
+            float:left;
+            border:1px solid red;
+        }
+        .textinfoBlock .mainBlock{
+            width:100%;
+            height:80%;
+            float:left;
+            border:1px solid red;
+        }
+video.fullscreen { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+.firstSection .upmenu{
+    width:100%;
+    height:250px;
+    float:left;
+}
+.firstSection .upmenu .menuBlock{
+    width:100%;
+    height:27%;
+    float:left;
+}
+.menuBlock .item{
+    width:100%;
+    height:100%;
+    color:black;
+    float:left;
+}
+.menuBlock .item:hover{
+    cursor:pointer;
+    border-bottom:3px solid #ae431a;
+}
+.spanclass{
+    width:100%;
+    height:100%;
+    margin-top:20px;
+    text-align:center;
+    font-size:18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.spanclass:hover{
+    z-index:100;
+    color:#ae431a;
+}
+.row{
+    height:100%;
+}
+.container-fluid{
+    height:100%;
+}
+.firstSection .bottommenu{
+    width:100%;
+    height:450px;
+    float:left;
+}
+    .bottommenu ._updownrow{
+        width:100%;
+        height:15%;
+        float:left;
+    }
+    .bottommenu ._udownrow{
+        width:100%;
+        height:15%;
+        float:left;
+    }
+    .bottommenu .centerrow{
+        width:100%;
+        height:70%;
+        float:left;
+    }
+        .centerrow .upblock{
+            width:100%;
+            height:15%;
+            float:left;
+        }
+        .centerrow .centblock{
+            width:100%;
+            height:70%;
+            float:left;
+        }
+        .centerrow .upblock1{
+            width:100%;
+            height:15%;
+            float:left;
+        }
+.upmenu .logoIcon{
+    width:100%;
+    height:100%;
+    float:left;
+    background:url("/Content/Images/Layout/imagep.png") no-repeat;
+    background-size:205px 170px;
+    background-position-x:10px;
+    background-position-y:10px;
+}
+
+
+[class*='col-']{
+    height:100% !important;
+    padding:0 !important;
+}
